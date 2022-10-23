@@ -11,6 +11,8 @@ public class UserModel {
     @Column(unique = true, nullable = false)
     private Long id;
     private String name;
+
+    @Column(unique = true, nullable = false)
     private String email;
     private Integer priority;
 
